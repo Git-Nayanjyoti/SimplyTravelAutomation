@@ -1,0 +1,426 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-19T13:13:01.123Z",
+        "line": 3,
+        "name": "Booking flight scenario",
+        "description": "",
+        "id": "booking-feature;booking-flight-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3548009000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage of ST",
+            "match": {
+              "location": "com.stepDefinition.BookFlightTicketSD.user_is_on_homepage_of_st()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4116086000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User selects flight",
+            "match": {
+              "location": "com.stepDefinition.BookFlightTicketSD.user_selects_flight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6315057000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters ContactInfo",
+            "match": {
+              "location": "com.stepDefinition.BookFlightTicketSD.user_enters_contact_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18185359000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Finish payment and successfully book a ticket",
+            "match": {
+              "location": "com.stepDefinition.BookFlightTicketSD.user_click_on_finish_payment_and_successfully_book_a_ticket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking feature",
+    "description": "",
+    "id": "booking-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Features/BookTicket.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-19T13:13:33.364Z",
+        "line": 3,
+        "name": "User login in scenario",
+        "description": "",
+        "id": "login-feature;user-login-in-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2616857000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home page of SimplyTravel",
+            "match": {
+              "location": "com.stepDefinition.LoginPageSD.user_is_on_home_page_of_simply_travel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39215000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on profile icon",
+            "match": {
+              "location": "com.stepDefinition.LoginPageSD.user_click_on_profile_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63769000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login",
+            "match": {
+              "location": "com.stepDefinition.LoginPageSD.user_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4203422000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username and password",
+            "match": {
+              "location": "com.stepDefinition.LoginPageSD.user_enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3192063000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Login button and successfully logs in",
+            "match": {
+              "location": "com.stepDefinition.LoginPageSD.user_clicks_on_login_button_and_successfully_logs_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Features/LoginST.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-19T13:13:43.492Z",
+        "line": 3,
+        "name": "Entering the data required for searching flight",
+        "description": "",
+        "id": "search-flight-feature;entering-the-data-required-for-searching-flight",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2336363000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on home page of Simply Travel",
+            "match": {
+              "location": "com.stepDefinition.SearchFlightSD.user_is_on_home_page_of_simply_travel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2179483000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters departure location",
+            "match": {
+              "location": "com.stepDefinition.SearchFlightSD.user_enters_departure_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2083370000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter arival location",
+            "match": {
+              "location": "com.stepDefinition.SearchFlightSD.user_enter_arival_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2193051000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects date",
+            "match": {
+              "location": "com.stepDefinition.SearchFlightSD.user_selects_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9820021000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selects no. of passengers and class",
+            "match": {
+              "location": "com.stepDefinition.SearchFlightSD.user_selects_no_of_passengers_and_class()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3197199000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on search button and successfully searches the flight",
+            "match": {
+              "location": "com.stepDefinition.SearchFlightSD.user_clicks_on_search_button_and_successfully_searches_the_flight()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Flight feature",
+    "description": "",
+    "id": "search-flight-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Features/searchFlight.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-19T13:14:05.313Z",
+        "line": 3,
+        "name": "Filling Sign up form",
+        "description": "",
+        "id": "sign-up-feature-of-simple-travel;filling-sign-up-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2850976000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on home page",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116874000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on sign up",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_clicks_on_sign_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155801000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters full name",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_enters_full_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68039000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_enters_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55752000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Phone number",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_enters_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70318000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Uer enter address",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.uer_enter_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051434000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects age group",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_selects_age_group()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2079066000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects gender",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_selects_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074374000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User selects hobbies",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_selects_hobbies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072866000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User selects Interests",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_selects_interests()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62588000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters password",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51504000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User re-enters password",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_re_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3611395000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on register and successfully signs up",
+            "match": {
+              "location": "com.stepDefinition.SignUpSD.user_clicks_on_register_and_successfully_signs_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign up feature of Simple Travel",
+    "description": "",
+    "id": "sign-up-feature-of-simple-travel",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Features/signup.feature",
+    "tags": []
+  }
+]

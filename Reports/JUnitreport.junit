@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="79.658">
+    <testcase classname="Booking feature" name="Booking flight scenario" time="32.231">
+        <system-out><![CDATA[Given User is on homepage of ST.............................................passed
+When User selects flight....................................................passed
+And User enters ContactInfo.................................................passed
+Then User click on Finish payment and successfully book a ticket............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="User login in scenario" time="10.119">
+        <system-out><![CDATA[Given User is on Home page of SimplyTravel..................................passed
+When User click on profile icon.............................................passed
+And User click on login.....................................................passed
+And User enter username and password........................................passed
+Then User clicks on Login button and successfully logs in...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Flight feature" name="Entering the data required for searching flight" time="21.813">
+        <system-out><![CDATA[Given User is on home page of Simply Travel.................................passed
+When User enters departure location.........................................passed
+And User enter arival location..............................................passed
+And User selects date.......................................................passed
+And User selects no. of passengers and class................................passed
+Then User clicks on search button and successfully searches the flight......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up feature of Simple Travel" name="Filling Sign up form" time="15.33">
+        <system-out><![CDATA[Given User is on home page..................................................passed
+When User clicks on sign up.................................................passed
+And User enters full name...................................................passed
+And User enters Email.......................................................passed
+And User enters Phone number................................................passed
+And Uer enter address.......................................................passed
+And User selects age group..................................................passed
+And User selects gender.....................................................passed
+And User selects hobbies....................................................passed
+And User selects Interests..................................................passed
+And User enters password....................................................passed
+And User re-enters password.................................................passed
+Then User clicks on register and successfully signs up......................passed
+]]></system-out>
+    </testcase>
+</testsuite>
